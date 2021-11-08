@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  background-image: url(Imagenes/SEA-MY21-REC-GTI-90-Reef-Blue-34FRT-LR.webp);
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.menu img {
+  width: 150px;
+  margin-left: -50px;
+}
+
+.titulo {
+  top: 0;
+}
+h1 {
+  margin-top: 5px;
+}
+
+.menu h1 {
+  font-size: 40px;
+  color: rgb(59, 59, 182);
+  text-align: center;
+  margin-top: 5px;
+}
+
+.inicio {
+  text-align: right;
+}
+
+.inicio a {
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgb(160, 162, 167);
+}
+
+.inicio ul li {
+  font-size: 20px;
+  color: rgb(59, 59, 182);
+  display: inline;
+  margin-top: 5px;
+  padding: 3px;
+  font-weight: bolder;
+}
+
+.listaPagos {
+  text-align: right;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+
+.listaPagos ul li {
+  display: inline;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.carrito {
+  text-align: right;
+  margin-top: 120px;
+  margin-right: 5px;
+}
+
+.carrito i {
+  font-size: 20px;
+}
+
+
+
+
+
+.boton {
+  color: darkgray;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 40px;
+  border: 1px solid grey;
+  text-align: left;
+  background-color: aqua;
+  padding: 5%;
+  
+}
+.sideBar ul li{
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+
+}
+.fotoMotoSeaDoo {
+  width: 45%;
+  margin-left: 20%;
+}
+.fotoFibrafort {
+  width: 45%;
+  margin-left: 20%;
+}
+
+/*footer*/
+
+.registro {
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: darkblue;
+  width: fit-content;
+  text-transform: uppercase;
+  align-content: center;
+  text-align: justify;
+}
+.suscribete {
+  border: 2px solid black;
+  padding-right: 8px;
+  border-radius: 20px;
+  background-color: darkgray;
+  width: 10px;
+  text-align: justify;
+  margin-left: 42%;
+}
+
+#seguinos {
+  position: relative;
+}
+
+#registrate {
+  color: whitesmoke;
+  size: 25px;
+  text-align: center;
+}
+
+footer ul li{
+    padding: 5px;
+
+}
+
+
+.redes {
+  display: inline;
+  list-style: none;
+  position:relative ;
+  white-space: 5px;
+  text-align: right;
+}
+
+.red {
+  font-size: 35px;
+}
+
+section ul li{
+    padding: auto;
+    text-align: right;
+}
