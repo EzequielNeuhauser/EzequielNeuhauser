@@ -12,10 +12,20 @@
 header {
   background-image: url(https://www.sea-doo.com/content/dam/global/en/sea-doo/my22/lifestyle/MY20-GTI-90-Couple-Riding.jpeg);
   height: 600px;
-  background-size: auto;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   display: block;
   position: relative;
+}
+
+@media screen and(max-width: 800px) {
+  Header {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
 }
 
 header .inicio {
@@ -47,7 +57,7 @@ header .inicio {
 }
 
 /*imagenLogo*/
-img {
+.ImgLogo {
   width: 350px;
   height: 350px;
   padding: 20px 0 5px 45px;
@@ -143,11 +153,6 @@ img {
 
 /*Accesorios*/
 /*tabla*/
-.Container {
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-}
 
 .Table {
   width: 100%;
@@ -293,4 +298,17 @@ list-style:none;
 .contenedor_Contacto1 > * {
   padding: 2em;
 
+}
+
+/*Guarderia*/
+
+.cuerpoContenedor{
+  height: 600px;
+  width: 100%;
+
+}
+
+.imagenTaller1{
+  width: 400px;
+  height: 400px;
 }
